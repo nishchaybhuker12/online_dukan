@@ -4,7 +4,7 @@
 //in action.php page if user click on "ready to checkout" button that time we will pass data in a form from action.php page
 if (isset($_POST["login_user_with_product"])) {
 	//this is product list array
-	$product_list = $_POST["product_id"];
+	$product_list = $_GET["product_id"];
 	//here we are converting array into json format because array cannot be store in cookie
 	$json_e = json_encode($product_list);
 	//here we are creating cookie and name of cookie is product_list
