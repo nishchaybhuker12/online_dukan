@@ -2,11 +2,8 @@
 include "db.php";
 
 include "header.php";
-
-
                          
 ?>
-
 <style>
 
 .row-checkout {
@@ -26,7 +23,6 @@ include "header.php";
   -ms-flex: 50%; /* IE10 */
   flex: 50%;
 }
-
 .col-75 {
   -ms-flex: 75%; /* IE10 */
   flex: 75%;
